@@ -8,4 +8,6 @@ meterpreter_shell_reverse_tcp_dns_selfdel.asm:	This is basiclly the
 	part of the shellcode into memory, so the remaining exe file can 
 	be deleted.
 
-
+meterpreter_keylogger_file.asm:  This is a msf-like PIC shellcode that
+    will log keystrokes to the file "keylog.bin" in the user's %TEMP%
+    directory.
